@@ -10,14 +10,19 @@
   <game-dice-pool title="5 dices" :minDice="5"></game-dice-pool>
   <game-dice-pool title="Add and Remove Dices"
     :allowAddRemove="true" :minDice="2" :maxDice="8"></game-dice-pool>
+  <p>Next we play around more with component communications in a sample blackjack
+    game. Here we utilize direct ref linking and calls.
+  </p>
+  <game-black-jack />
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue';
 import GameDicePool from './components/GameDicePool.vue';
+import GameBlackJack from './components/BlackJack/GameBlackJack.vue';
 
 export default defineComponent({
-  components: { GameDicePool },
+  components: { GameDicePool, GameBlackJack },
   setup() {
     return {};
   },

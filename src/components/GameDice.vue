@@ -34,7 +34,8 @@ export default defineComponent({
 <style scoped>
 @import url('https://fonts.googleapis.com/css?family=Bangers');
 
-.square {user-select: none;
+.square {
+  user-select: none;
   font-family: 'Bangers', sans-serif;
   font-size: 2em;
   line-height: 47px;

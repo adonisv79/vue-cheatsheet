@@ -138,7 +138,7 @@ export default defineComponent({
 .game-dice-pool{
   display:table-cell;
   border: 1px solid red;
-  min-width: 150px;
+  min-width: 190px;
   max-width: 220px;
   padding: 2px;
 }
@@ -150,7 +150,6 @@ export default defineComponent({
   font-family: 'Bangers', sans-serif;
   background-color: red;
   color: white;
-
   margin: 2px;
 }
 </style>
