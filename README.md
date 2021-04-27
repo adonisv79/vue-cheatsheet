@@ -2,6 +2,8 @@
 This project serves as a repository to reference our VueJS experimental learnings and help us recall how we did certain things coz yeah... our memory is not that awesome...
 SRC: https://v3.vuejs.org/
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7c70d819-0032-4a99-9be9-2d0946382fda/deploy-status)](https://app.netlify.com/sites/compassionate-stonebraker-d4a758/deploys)
+
 ## Project setup
 ```
 npm install
